@@ -31,33 +31,34 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 - <b>A:SELECT SUM(minutes) FROM todo_list ; </b>
 
 <br/>
-<img src="https://i.imgur.com/ynjKwNP.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aa4ZNyR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>3. PROJECT: Design a store database </h2>
 
-- <b>Q:Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. You should sell at least 5 items, and use select statements to order your items by price and show at least one statistic about the items. </b>
+- <b>Q:Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. You should have a table for all the items in your store, and at least 6 columns for the kind of data you think you'd need to store. You should sell at least 6 items, and use select statements to order your items by price and show at least one statistic about the items. </b>
 
-- <b>For my store , I chose to do an herbal store. I followed the directions above</b>
+- <b>For my store , I chose to do an chothing store. I followed the directions above</b>
 
 <b> Here is my code </b>
 
 <br/>
-<img src="https://i.imgur.com/WkVHvJo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hEFVU0i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<img src="https://i.imgur.com/JjeNM4h.png"height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- <b>Here's the 6 columns </b>
 
-- <b>Here's the 5 columns </b>
 
 <br/>
-<img src="https://i.imgur.com/J6QIQYj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YFC5UN0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-- <b>Here's my 5 items ( I chose to do 9 herbs for my store ) </b>
+- <b>Here's my 6 items ( I chose to do 15 clothing items for my store ) </b>
 
 <br/>
-<img src="https://i.imgur.com/Ou5cy9f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YEXnfrT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-
+<img src="https://i.imgur.com/PkzwxqD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h2>4. Karaoke song selector</h2>
 
 - <b>step 1 - Ever sung karaoke? It's a place where you sing songs with your friends, and it's a lot of fun. We've created a table with songs, and in this challenge, you'll use queries to decide what songs to sing. For the first step, select all the song titles.</b>
