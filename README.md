@@ -113,12 +113,15 @@ mvp (TEXT): The Most Valuable Player of the Superbowl. </b>
 <img src="https://i.imgur.com/D6mnFWZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 - <b> 2. Calculate the average winning score across all Superbowls: ; </b>
-<img src="https://i.imgur.com/h6JU3mA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x3Lo9a5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-- <b>Step 3 - To finish creating the 'Pop' playlist, add another query that will select the title of all the songs from the 'Pop' artists. It should use IN on a nested subquery that's based on your previous query.</b>
+- <b>Step 3 - Identify the team with the most Superbowl wins:.</b>
+<img src="https://i.imgur.com/kqbhgPe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br/>
-<img src="https://i.imgur.com/aR7vgKe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br/>4. Find Superbowls where the MVP was a player from the losing team and List Superbowl locations and the number of times they have hosted a Superbowl:
+
+<img src="https://i.imgur.com/QViSzv0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 
