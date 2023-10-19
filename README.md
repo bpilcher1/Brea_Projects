@@ -66,8 +66,9 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 - <b>A:Select title from songs ;</b>
 
 <br/>
-<img src="https://i.imgur.com/MfVAuTV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HJiGjRw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<img src="https://i.imgur.com/cXzf1rU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 - <b>Step 2 - Maybe your friends only like singing either recent songs or truly epic songs. Add another SELECT that uses OR to show the titles of the songs that have an 'epic' mood or a release date after 1990.
 </b>
@@ -79,22 +80,40 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 - <b>A:SELECT title FROM songs Where mood = 'epic' AND released > 1990 AND duration < 240 ; </b>
 
 <br/>
-<img src="https://i.imgur.com/0n3BGI3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6yIXE1I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>5.Playlist maker</h2>
+<h2>5.Project: Data dig</h2>
 
-- <b>Step1 - We've created a database of songs and artists, and you'll make playlists from them in this challenge. In this first step, select the title of all the songs by the artist named 'Queen'. </b>
+- <b> Question: Create a table using  NASA astronauts, Superbowl results, Pokemon stats, NBA players, Top movies, Top countries by population, Solar system objects by size, Marvel characters, Furniture store sales, Earned KA badges, Winston's donut logs, Card game results, and NFL draft picks.
 
-- <b>A: SELECT title FROM songs Where ARTIST = 'Queen'; </b>
+Pick one of those data sets or create a data set like that, and use advanced SELECT queries to discover things about the data. What sort of questions might one have about that data, like if they were using it for an app or a business idea? Here are some ideas:
+
+What are average, max, and min values in the data?
+What about those numbers per category in the data (using HAVING)?
+What ways are there to group the data values that don’t exist yet (using CASE)?
+What interesting ways are there to filter the data (using AND/OR)?. </b>
+
+- <b>A: Schema for Superbowl Results:
+
+superbowl_id (INTEGER): A unique identifier for each Superbowl.
+year (INTEGER): The year in which the Superbowl took place.
+winner (TEXT): The winning team.
+loser (TEXT): The losing team.
+winning_score (INTEGER): The winning team's score.
+losing_score (INTEGER): The losing team's score.
+location (TEXT): The location of the Superbowl game.
+mvp (TEXT): The Most Valuable Player of the Superbowl. </b>
 
 <br/>
-<img src="https://i.imgur.com/HJ4AV0b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uJcw1e2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-- <b>Step 2 - Now you'll make a 'Pop' playlist. In preparation, select the name of all of the artists from the 'Pop' genre. </b>
+- <b>Step 2 - Find the Superbowl with the highest total score: </b>
+<img src="https://i.imgur.com/D6mnFWZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-- <b> A:SELECT name FROM artists WHERE genre = 'Pop' ; </b>
+- <b> 2. Calculate the average winning score across all Superbowls: ; </b>
+<img src="https://i.imgur.com/h6JU3mA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 - <b>Step 3 - To finish creating the 'Pop' playlist, add another query that will select the title of all the songs from the 'Pop' artists. It should use IN on a nested subquery that's based on your previous query.</b>
 
