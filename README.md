@@ -7,7 +7,7 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 <br />
 
 
-<h2>1.Projet: Box office hits database</h2>
+<h2>1.Project: Box office hits database</h2>
 
 - <b>Q: This database contains an incomplete list of box office hits and their release year. In this challenge, you're going to get the results back out of the database in different ways! In this first step, just select all the movies.
  </b>
@@ -22,7 +22,7 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 <img src="https://i.imgur.com/4adSZsM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>2.Projet: TODO list database stats </h2>
+<h2>2.Project: TODO list database stats </h2>
 
 - <b>Q: Here's a table containing a TODO list with the number of minutes it will take to complete each item. Insert another item to your todo list with the estimated minutes it will take.</b>
 
@@ -34,7 +34,7 @@ All projects encompasses a SQL-based interactive experience guiding users throug
 <img src="https://i.imgur.com/aa4ZNyR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>3. Projet: Design a store database </h2>
+<h2>3. Project: Design a store database </h2>
 
 - <b>Q:Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. You should have a table for all the items in your store, and at least 6 columns for the kind of data you think you'd need to store. You should sell at least 6 items, and use select statements to order your items by price and show at least one statistic about the items. </b>
 
@@ -126,7 +126,7 @@ mvp (TEXT): The Most Valuable Player of the Superbowl. </b>
 <br />
 
 
-<h2>6.Projet: Gradebook</h2>
+<h2>6.Project: Gradebook</h2>
 
 - <b> Step 1 - We've created a database to track student grades, with their name, number grade, and what percent of activities they've completed. In this first step, select all of the rows, and display the name, number_grade, and percent_completed, which you can compute by multiplying and rounding the fraction_completed column.</b>
 
